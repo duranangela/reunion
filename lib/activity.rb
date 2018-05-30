@@ -17,7 +17,7 @@ class Activity
 
   def total_cost
     participant_cost = @participants.keys.count * @cost_per
-    total_cost = participant_cost + @base_cost
+    participant_cost + @base_cost
   end
 
   def total_cost_per
